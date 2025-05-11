@@ -1,0 +1,94 @@
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 250px;
+}
+
+body{
+    background-image: url('background.jpg');
+}
+
+.album{
+    margin: auto;
+    height:300px;
+    width: 1500px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 25px;
+
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.album:hover {
+    background-color: #bbbbbba2;
+    transform: scale(1.05);
+}
+
+.imgAlbum{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 60px;
+}
+
+.textTop{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.tituloAlbum{
+    font-family: 'Bebas Neue';
+    font-size: 95px;
+    color: white;
+    position: relative;
+    left: 120px;
+}
+
+.anoPublicacion{
+    font-size: 70px;
+}
+
+.contInfo{
+    display: none;
+    margin: auto;
+    border-radius: 20px;
+    width: 1600px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.active{
+    display: block;
+}
+
+.pInfo{
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 60px;
+
+}
+
+.imageOpinion{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 60px;
+}
